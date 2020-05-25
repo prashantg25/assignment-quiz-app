@@ -1,0 +1,64 @@
+body {
+  padding: 50px 100px;
+  font-family: monospace;
+}
+#app {
+  box-shadow: 0 0 3px 4px #f1f1f1;
+  padding: 20px 50px;
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+
+.timer {
+  text-align: right;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+
+button {
+  background-color: #007dad;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: white;
+  text-transform: uppercase;
+  border: 0px;
+  cursor: pointer;
+}
+
+#app img {
+  max-width: 270px;
+  display: block;
+  margin-top: 10px;
+}
+
+li {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+input {
+  margin-top: 10px;
+  padding: 10px;
+  padding: 10px;
+  border: 1px solid #d0d0d0;
+}
+
+.react-player__preview {
+  box-shadow: 0px 1px 2px #949494;
+
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 10px 20px;
+  }
+
+  #app {
+    box-shadow: 0 0 1px 1px #f1f1f1;
+    padding: 5px 10px;
+    max-width: 100%;
+  }
+}

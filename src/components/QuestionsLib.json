@@ -1,0 +1,43 @@
+[
+  {
+    "question": "What is the colour of Mango",
+    "answers": ["Red", "Yellow", "Blue", "Orange"],
+    "correct": "Yellow",
+    "questionId": 1,
+    "questionType": "text",
+    "answerFieldType": "radio"
+  },
+  {
+    "question": "Is there a mobile in this picture?",
+    "answers": ["True", "False"],
+    "correct": "True",
+    "questionId": 2,
+    "questionType": "image",
+    "answerFieldType": "radio",
+    "path": "https://images.pexels.com/photos/1092644/pexels-photo-1092644.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+  },
+  {
+    "question": "Which is current year?",
+    "correct": "2020",
+    "questionId": 3,
+    "questionType": "text",
+    "answerFieldType": "filltheblanks"
+  },
+  {
+    "question": "Is delhi capital of India?",
+    "answers": ["True", "False"],
+    "correct": "True",
+    "questionId": 4,
+    "questionType": "text",
+    "answerFieldType": "radio"
+  },
+  {
+    "question": "What this video is about?",
+    "answers": ["Music", "History", "Lifestyle", "Travel"],
+    "correct": "Travel",
+    "questionId": 5,
+    "questionType": "video",
+    "answerFieldType": "radio",
+    "path": "https://www.youtube.com/watch?v=1TAwBr26J7U"
+  }
+]
