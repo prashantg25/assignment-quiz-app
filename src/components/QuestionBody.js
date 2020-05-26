@@ -1,5 +1,6 @@
 import React from "react";
-import ReactPlayer from "react-player";
+// import ReactPlayer from "react-player";
+import VideoPlayer from "./Video.js";
 
 export const QuestionBody = ({ question, questionType, path }) => {
   let element = "";
@@ -16,7 +17,7 @@ export const QuestionBody = ({ question, questionType, path }) => {
     element = (
       <div>
         <span>{question}</span>
-        <ReactPlayer url={path} light={true} width={300} height={200} />
+        <VideoPlayer path={path} />
       </div>
     );
   }

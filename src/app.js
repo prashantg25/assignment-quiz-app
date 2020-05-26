@@ -2,6 +2,7 @@ import ReactDOM from "react-dom";
 import React from "react";
 import Quiz from "./components/Quiz.js";
 import "./styles/style.css";
+import "../node_modules/video.js/dist/video-js.css";
 
 const element = (
   <div>
